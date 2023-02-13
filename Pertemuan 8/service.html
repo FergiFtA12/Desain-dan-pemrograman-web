@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bacground3"
+    >
+        <nav>
+            <h2 class="logo">F.F.A<span> HairStyle.</span></h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <a class="button" href="https://youtu.be/246sd20WL-8">Subscribe</a>
+        </nav>
+    </div>
+    <div class="gallery">
+        <div class="wrap">
+            <div class="photo">
+                <img src="img/1.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/5.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/9.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/13.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/17.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/21.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/25.jpg" alt="">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="photo">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/6.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/10.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/14.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/18.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/22.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/26.jpg" alt="">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="photo">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/7.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/11.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/15.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/19.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/23.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/27.jpg" alt="">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="photo">
+                <img src="img/4.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/8.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/12.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/16.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/20.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="img/24.jpg" alt="">
+            </div>
+        </div>
+    <div class="style">
+        <div class="rambut">
+            <h1>Style Rambut</h1>
+            <img id="image" src="1.jpg" width="600" height="800">
+            <br>
+            <button id="btn">GANTI MENU</button>
+            <button id="reset">RESET</button>
+            <a href="pemesanan.php">PESAN</a>
+            <a href="logout.php">LOGOUT</a>
+            <p id="teks"></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var gambarIndex = 0;
+        var gambar = [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27"
+
+        ]
+
+        document.getElementById('btn').onclick = function change_image() {
+            if (gambarIndex == gambar.length - 1) {
+                gambarIndex = 0;
+            }
+            else {
+                gambarIndex++;
+            }
+            document.getElementById("image").src = `${gambar[gambarIndex]}.jpg`;
+        }
+
+
+
+        document.getElementById('reset').onclick = function change_image() {
+            document.getElementById("image").src = "img/1.jpg";
+            document.querySelector(".minuman .nama").textContent = "img/1.jpg";
+            document.getElementById('teks').textContent = "";
+            gambarIndex = 0;
+        }
+
+        $('.wrap img').click(function() {
+            $('.style img').attr('src', $(this).attr('src'));
+        })
+    </script>
+</body>
+</html>

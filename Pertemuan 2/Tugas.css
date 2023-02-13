@@ -1,0 +1,99 @@
+*{
+    font-family: 'Segoe UI';
+    }
+body{
+    margin: 0;
+    }
+
+.belakang {
+    width: 1535px;
+    height: 745px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #4C0033;
+    }
+
+table {
+    width: 100%;
+    height:100%;
+    }
+.baris1 {
+    width: 100%;
+    height: 75%;
+    }
+.kolom1{
+    background: #E80F88;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    width:20%;
+    }
+.kolom2{
+    background: #E80F88;
+    width: 30%;
+    font-size: 40px;
+    color: #4C0033;
+    padding-right: 25px;
+    }
+
+.kata1{
+    font-size: 18px;
+    color: white;
+    }
+
+.kolom3{
+    padding: 15px;
+    background: white;
+    width: 15%;
+    color: #E80F88;
+    }
+
+.kolom4{
+    padding: 30px;
+    width: 35%;
+    background: white;
+    color: #E80F88;
+    }
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    border: 5px white solid;
+    }
+
+img:hover{
+    border: 5px #4C0033 solid;
+    }
+
+b{
+    font-size: 80px;
+    }
+
+.pendidikan {
+    color: #E80F88;
+    text-align: center;
+    font-size: 25px;
+    height: 20%;
+    }
+
+.isipen {
+    color: white;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+    }
+
+.sosmed {
+    text-align: center;
+    }
+.isisos {
+    width: 25%;
+    }
+
+.fa {
+    color: white;
+    }
+
+.fa:hover{
+    color: #E80F88;
+    }

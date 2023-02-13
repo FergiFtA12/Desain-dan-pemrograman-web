@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Membuat Garis Horizontal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        Membuat garis horizontal <hr>
+        Lores ipsum dolar sit amet, consectetur adipising elit. <br>
+        Aenean sed sollicitudin loren, id placerat augue. Maecesan ligula sapien. <br>
+        Molestie vitae leo in, porttitor aliquam massa. <br>Curabitur tellus nunc, <br>
+        efficitur ut risus ac, faucibus sagittis tortor. Vivamus porta felis pulviar, <br>
+        euismod sem in, eleifend purus. Quisque in magna sed ipsum ullamcorper luctus <br>
+        Curabitur lorem tellus, dapibus et scelerisque sit amet, sodales id dolor. <br>
+        Sed ac quam eu sem scelerisque malesuada. Pellentesque magna odio, dignissim eget accumsam eu, <br>
+        pellentesque consequat libero, sed blandit iaculis leo et congue.
+
+        Morbi posuere quis elit a consequat, Maecenas maximus, nisl et aleifend consequat, <br>
+        urna ipsum finibus elit, <br>quis venenatis metus lorem vitae ente. Etiam ut purus sem. <br>
+        ut efficitur lestus in ipsum tempor vehicula. Aliquam dapibus lacus sed ligula convallis, <br>
+        a congue quam maximus. Donec pulvinar est rutrum lacus feugiat, auctor vestibulum urna aliquet. <br>
+        Suspendisse ultices mi in nibh dapibus prtium. Aenen maximus dignissim lobortis. <br>
+        Donec quis urna ullamcorper, dapibus felis at, imperdiet mauris.
+        <hr>
+        <script src="" async defer></script>
+    </body>
+</html>
